@@ -1,4 +1,10 @@
 import math
 
+
 def surface(radius: float) -> float:
-    return math.pi * radius **2
+    """
+    computes the surface
+    """
+
+    sur = math.pi * radius **2
+    return sur
